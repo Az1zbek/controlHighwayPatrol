@@ -7,8 +7,8 @@ xodimlarining ishini osonlashtirish va qulaylashtirish.'''
  * _Haydovchilar uchun:_
  * ''' Shaxsni tasdiqlovchi xujjat **Pasport**, yoki **haydovchilik guvohnomasi** orqali mashina boshqarish huquqini beradi.
     *Haydovchi o'zining hujjatlari to'liqligini Internetda o'zining shaxsini tasdiqlovchi hujjati orqali tekshirishi mumkin.'''
-_DAN xodimlari uchun:_
-  DAN xodimi haydovchining hujjatlarini internetga ulangan qurilma (planshet, telefon)  orqali  tekshirishi uchun Pasport yoki haydovchilik guvohnomasini yoki
+* _DAN xodimlari uchun:_
+*  DAN xodimi haydovchining hujjatlarini internetga ulangan qurilma (planshet, telefon)  orqali  tekshirishi uchun Pasport yoki haydovchilik guvohnomasini yoki
  avtomobil raqamini dasturning Search bo'limidan pasport seriya raqami yoki haydovchilik guvohnomasining
   seria raqami yoki avtomobilning davlat raqami orqali qidiruv amalga oshiriladi. Natijada malumotlar ekranga chiqariladi.
   bu yerda DAN xodimi haydovchi qoidalarni buzgan holatida Qonunda ko'rsatilgan tartibda jarimaga tortishi mumkin.
