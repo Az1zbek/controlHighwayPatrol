@@ -4,9 +4,9 @@ xodimlarining ishini osonlashtirish va qulaylashtirish.'''
 *__Dasturni afzalligi:__
    Dasturda __driver, car, insurance nomli malumotlar bazalari yaratiladi.
  *  Ma'lumotlar bazasida: haydovchi haaqida ma'lumotlar, mashina haqida ma'lumotlar jamlangan bo'ladi.
-_Haydovchilar uchun:_
-''' Shaxsni tasdiqlovchi xujjat **Pasport**, yoki **haydovchilik guvohnomasi** orqali mashina boshqarish huquqini beradi.
-    Haydovchi o'zining hujjatlari to'liqligini Internetda o'zining shaxsini tasdiqlovchi hujjati orqali tekshirishi mumkin.'''
+ * _Haydovchilar uchun:_
+ * ''' Shaxsni tasdiqlovchi xujjat **Pasport**, yoki **haydovchilik guvohnomasi** orqali mashina boshqarish huquqini beradi.
+    *Haydovchi o'zining hujjatlari to'liqligini Internetda o'zining shaxsini tasdiqlovchi hujjati orqali tekshirishi mumkin.'''
 _DAN xodimlari uchun:_
   DAN xodimi haydovchining hujjatlarini internetga ulangan qurilma (planshet, telefon)  orqali  tekshirishi uchun Pasport yoki haydovchilik guvohnomasini yoki
  avtomobil raqamini dasturning Search bo'limidan pasport seriya raqami yoki haydovchilik guvohnomasining
