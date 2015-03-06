@@ -13,7 +13,7 @@ _DAN xodimlari uchun:_
   seria raqami yoki avtomobilning davlat raqami orqali qidiruv amalga oshiriladi. Natijada malumotlar ekranga chiqariladi.
   bu yerda DAN xodimi haydovchi qoidalarni buzgan holatida Qonunda ko'rsatilgan tartibda jarimaga tortishi mumkin.
   Natijada;
-  N      |  Malumotlar
+  N       |  Ma'lumotlar
   ------- | -----------
   1 | Mashina kimning nomidaligi haqida hujjat ;
   2 | Mashina rusmi:
