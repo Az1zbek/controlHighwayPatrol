@@ -1,68 +1,34 @@
-@(message: String)
+@()
 
-@main("Control highway patrol") {
+@main("Home") {
 
-    <div class="text-center">
+        @navbar("home")
 
-                            <div class="container">
-                                    <h2 class="text-center">WHAT PEOPLE ARE <B>SAYING</B></h2>
-                                    <h4 class="text-center">Feedback from The Minute Journal users.</h4>
-                                    <br/>
-                                    <br/>
+<div class="container">
+        <br/>
+        <br/>
+        <h2 class="text-center"><B>YO'L PATRUL XIZMATI BOSHQARMASINING</B></h2>
+        <h4 class="text-center">Tezkor qidiruv xizmati.</h4>
+        <br/>
+        <br/>
 
-                                    <div class="row">
-                                            <div class="col-xs-3">
-                                                    <img src="img/img_people_1.jpg" class=" center-block img-responsive img-circle" alt=""/>
-                                            </div>
-                                            <div class="col-xs-8">
-                                                    <p class="lead">
-                                                            The Minute Journal is one of the simplest ways that I have found to
-                                                            consistently to ensure to improve my well being and happiness. Both in
-                                                            terms of achievement and actual measurable, quantifiable results.
-                                                    </p>
+        <div class="row">
+                <div class="col-xs-3">
+                        <img src="@routes.Assets.at("images/IMG.jpg")" class=" center-block img-responsive img-circle" alt=""/>
+                </div>
+                <div class="col-xs-8">
+                        <p class="lead">
+                                Yo'l patrul xizmatchilarining ishini osonlashtirish uchun qidiruv xizmati.
+                        </p>
 
-                                                    <p class="lead">
-                                                            <b>- Tim Ferriss,</b> NY Times Best Selling Author
-                                                    </p>
-                                            </div>
-                                    </div>
-                                    <br/>
-                                    <hr/>
-                                    <br/>
+                        <p class="lead">
+                                <b>- Azizbek Azamatov,</b> Dasturni tuzuvchi.
+                        </p>
+                </div>
+        </div>
+        <br/>
+        <hr/>
+        <br/>
 
-                                    <div class="row">
-                                            <div class="col-xs-6">
-                                                    <div class="row">
-                                                            <div class="col-xs-4">
-                                                                    <img src="img/img_people_2.jpg" class="center-block img-responsive img-circle" alt=""/>
-                                                            </div>
-                                                            <div class="col-xs-8">
-                                                                    <p>I start and end my day with The Minute Journal It
-                                                                            really only takes five minutes a day. I love it!</p>
-
-                                                                    <p><b>- Mimi IKonn,</b> Luxy Hair</p>
-                                                            </div>
-                                                            <hr/>
-                                                    </div>
-                                            </div>
-
-                                            <div class="col-xs-6">
-                                                    <div class="row">
-                                                            <div class="col-xs-4">
-                                                                    <img src="img/img_people_3.jpg" class="center-block img-responsive img-circle" alt=""/>
-                                                            </div>
-                                                            <div class="col-xs-8">
-                                                                    <p>The Minute Journal is about so much more than
-                                                                            journaling, it's really an automatic tool for self-
-                                                                            betterment!</p>
-                                                                    <p><b>- LeAura Alderson, </b> My Trainer Fitness</p>
-                                                            </div>
-                                                            <hr/>
-                                                    </div>
-                                            </div>
-                                    </div>
-                            </div>
-
-    </div>
 
 }

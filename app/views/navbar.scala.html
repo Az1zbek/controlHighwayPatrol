@@ -1,0 +1,29 @@
+@(activePage: String)
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+                <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target="#example-navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand " href="@routes.Application.index()">YPX</a>
+                </div>
+                <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                        <ul class="nav navbar-nav">
+                                <li class="@if(activePage == "home") {active}"><a href="@routes.Application.index()">Qidiruv</a></li>
+                                <li class="@if(activePage == "list") {active}"><a href="#">Yangiliklar</a></li>
+                                <li class="@if(activePage == "list") {active}"><a href="#">Hujjatlar</a></li>
+                                <li class="@if(activePage == "login") {active}"><a href="#">Biz haqimizda</a></li>
+                        </ul>
+                        <div class="pull-right navbar-text navbar-right h4">
+                                <span class="@if(activePage == "login") {active}"><a href="@routes.Application.login()">Kirish &nbsp<span class="glyphicon glyphicon-log-in"></span></a></span>
+                        </div>
+                </div>
+        </div>
+</nav>
