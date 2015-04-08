@@ -17,13 +17,14 @@
                 <div class="collapse navbar-collapse" id="example-navbar-collapse">
                         <ul class="nav navbar-nav">
                                 <li class="@if(activePage == "home") {active}"><a href="@routes.Application.index()">YPX</a></li>
-                                <li class="@if(activePage == "search") {active}"><a href="#">Qidiruv</a></li>
-                                <li class="@if(activePage == "list") {active}"><a href="#">Yangiliklar</a></li>
+                                <li class="@if(activePage == "search") {active}"><a href="#"><i class="fa fa-search"></i>Qidiruv</a></li>
+                                <li class="@if(activePage == "list") {active}"><a href="#"><i class="fa fa-angle-down"></i>Yangiliklar</a></li>
                                 <li class="@if(activePage == "list") {active}"><a href="#">Hujjatlar</a></li>
                                 <li class="@if(activePage == "about") {active}"><a href="#">Biz haqimizda</a></li>
                         </ul>
                         <div class="pull-right navbar-text navbar-right h4">
-                                <span class="@if(activePage == "login") {active}"><a href="@routes.Application.login()">Kirish &nbsp<span class="glyphicon glyphicon-log-in"></span></a></span>
+                                <span class="@if(activePage == "login") {active}"><a href="@routes.Users.login()">Kirish &nbsp|<span class="glyphicon glyphicon-log-in"></span></a></span>
+                                <span class="@if(activePage == "signup") {active}"><a href="@routes.Users.add()">&nbsp Registratsiya <span class="glyphicon glyphicon-log-in"></span></a></span>
                         </div>
                 </div>
         </div>

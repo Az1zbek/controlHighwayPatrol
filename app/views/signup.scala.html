@@ -1,0 +1,50 @@
+@()
+@main("signup") {
+        <h1 class="text-center text-info">Welcome to our web site</h1>
+        <div class="container">
+                <div class="row">
+                        <div class="col-xs-4 col-xs-offset-4 well">
+                                <legend><a href="#"><span class="glyphicon glyphicon-globe"></span> Sign up!</a></legend>
+                                <form class="form" action="@routes.Users.add()" method="POST" role="form">
+                                        <div class="form-group">
+                                                <label for="inp-fname">Name</label>
+                                                <input type="text" class="form-control" id="inp-fname"
+                                                name="fname" required="">
+                                        </div>
+                                        <div class="form-group">
+                                                <label for="inp-lname">Last Name</label>
+                                                <input type="text" class="form-control" id="inp-lname"
+                                                name="lname" required="">
+                                        </div>
+                                        <div class="form-group">
+                                                <label for="inp-uname">Nickname</label>
+                                                <input type="text" class="form-control" id="inp-uname"
+                                                name="uname" required="">
+                                        </div>
+                                        <div class="form-group">
+                                                <label for="inp-email">Email</label>
+                                                <input type="email" class="form-control" id="inp-email"
+                                                name="email" required="">
+                                        </div>
+                                        <div class="form-group">
+                                                <label for="inp-pas">Password</label>
+                                                <input type="password" class="form-control" id="inp-pas"
+                                                name="password" required="">
+                                        </div>
+                                        <label class="radio-inline">
+                                                <input type="radio" name="sex" id="inlineCheckbox1" value="male" />
+                                                Male
+                                        </label>
+                                        <label class="radio-inline">
+                                                <input type="radio" name="sex" id="inlineCheckbox2" value="female" />
+                                                Female
+                                        </label>
+                                        <br />
+                                        <br />
+                                        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+                                </form>
+                        </div>
+                </div>
+                </div>
+
+}

@@ -1,0 +1,40 @@
+@(users: List[User])
+
+@main("Home") {
+
+        @navbar("list")
+
+        <div class="container main-content">
+
+                <h1 class="text-center">World's most beautiful cities.</h1>
+                <table class="table table-striped">
+                        <thead>
+                                <tr>
+                                        <th>FName</th>
+                                        <th>LName</th>
+                                        <th>UName</th>
+                                        <th>Email</th>
+                                        <th>Password</th>
+                                        <th>Action</th>
+                                </tr>
+                        </thead>
+                        <tbody>
+                        @for(user <- users) {
+                                <tr>
+                                        <td>@user.fname</td>
+                                        <td>@user.lname</td>
+                                        <td>@user.uname</td>
+                                        <td>@user.email</td>
+                                        <td>@user.password</td>
+                                        <td>
+                                                <a href="@routes.Users.remove(user.id.get)">
+                                                        <button class="btn btn-danger">Delete</button>
+                                                </a>
+                                        </td>
+                                </tr>
+                        }
+                        </tbody>
+                </table>
+        </div>
+
+}

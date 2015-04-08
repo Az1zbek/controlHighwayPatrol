@@ -1,6 +1,5 @@
 package controllers
 
-import play.api._
 import play.api.mvc._
 
 object Application extends Controller {
@@ -9,8 +8,5 @@ object Application extends Controller {
     Ok(views.html.index())
   }
 
-  def login = Action {
-    Ok(views.html.login())
-  }
 
 }
