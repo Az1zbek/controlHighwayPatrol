@@ -1,4 +1,4 @@
-@(users: List[User])
+@(users: List[UserForDisplay])
 
 @main("Home") {
 
@@ -6,7 +6,7 @@
 
         <div class="container main-content">
 
-                <h1 class="text-center">World's most beautiful cities.</h1>
+                <h1 class="text-center">Users list.</h1>
                 <table class="table table-striped">
                         <thead>
                                 <tr>
@@ -19,15 +19,18 @@
                                 </tr>
                         </thead>
                         <tbody>
-                        @for(user <- users) {
+                        @for(user1 <- users) {
                                 <tr>
-                                        <td>@user.fname</td>
-                                        <td>@user.lname</td>
-                                        <td>@user.uname</td>
-                                        <td>@user.email</td>
-                                        <td>@user.password</td>
+                                        <td>@user1.user.fname</td>
+                                        <td>@user1.user.lname</td>
+                                        <td>@user1.user.uname</td>
+                                        <td>@user1.user.email</td>
+                                        <td>@user1.user.password</td>
                                         <td>
-                                                <a href="@routes.Users.remove(user.id.get)">
+                                                <a href="@routes.Users.showEditForm(user1.user.id.get)">
+                                                        <button class="btn btn-warning">Edit</button>
+                                                </a>
+                                                <a href="@routes.Users.remove(user1.user.id.get)">
                                                         <button class="btn btn-danger">Delete</button>
                                                 </a>
                                         </td>

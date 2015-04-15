@@ -11,7 +11,7 @@ case class  User(id: Option[Int],
                 uname: String,
                 email: String,
                 password: String)
-
+case class UserForDisplay(user: User)
 
 class UserTable(tag: Tag) extends Table[User](tag, "REGISTRATION") {
 

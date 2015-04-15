@@ -1,0 +1,39 @@
+@(user: User)
+
+@main("Edit") {
+
+    @navbar("add")
+
+    <div class="container main-content">
+        <h2 class="text-center">Edit user</h2>
+        <form class="@routes.Users.update(user.id.get)" method="post">
+            <div class="form-group">
+                <label for="inp-fname">Name</label>
+                <input type="text" class="form-control" id="inp-fname"
+                    name="fname" value="@user.fname" required="">
+            </div>
+                <div class="form-group">
+                        <label for="inp-lname">Last Name</label>
+                        <input type="text" class="form-control" id="inp-lname"
+                        name="lname" value="@user.lname" required="">
+                </div>
+                <div class="form-group">
+                        <label for="inp-uname">Nick Name</label>
+                        <input type="text" class="form-control" id="inp-uname"
+                        name="uname" value="@user.uname" required="">
+                </div>
+                <div class="form-group">
+                        <label for="inp-pas">Nick Name</label>
+                        <input type="text" class="form-control" id="inp-pas"
+                        name="password" value="@user.password" required="">
+                </div>
+                <div class="form-group">
+                        <label for="inp-email">Nick Name</label>
+                        <input type="text" class="form-control" id="inp-email"
+                        name="email" value="@user.email" required="">
+                </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+}

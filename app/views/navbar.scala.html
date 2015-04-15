@@ -20,7 +20,7 @@
                                 <li class="@if(activePage == "search") {active}"><a href="#"><i class="fa fa-search"></i>Qidiruv</a></li>
                                 <li class="@if(activePage == "list") {active}"><a href="#"><i class="fa fa-angle-down"></i>Yangiliklar</a></li>
                                 <li class="@if(activePage == "list") {active}"><a href="#">Hujjatlar</a></li>
-                                <li class="@if(activePage == "about") {active}"><a href="#">Biz haqimizda</a></li>
+                                <li class="@if(activePage == "about") {active}"><a href="@routes.Users.list">Users list</a></li>
                         </ul>
                         <div class="pull-right navbar-text navbar-right h4">
                                 <span class="@if(activePage == "login") {active}"><a href="@routes.Users.login()">Kirish &nbsp|<span class="glyphicon glyphicon-log-in"></span></a></span>
